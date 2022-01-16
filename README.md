@@ -1,2 +1,2 @@
 # initialPortfolio
-My first portfolio, made in HyperSkill
+My first portfolio, made on HyperSkill (JetBrains Academy).
