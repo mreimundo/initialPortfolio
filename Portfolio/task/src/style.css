@@ -1,0 +1,257 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+h1 {
+    padding: 3rem;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    column-gap: 2rem;
+    margin: -4.5rem 3rem;
+    font-size: 1.5rem;
+}
+
+
+header {
+    height: 1080px;
+    background-image: url("bg.jpg");
+    color: white;
+}
+
+header a {
+    transition: color 0.3 ease;
+    color: white;
+    text-decoration: none;
+    z-index: 2;
+}
+
+header a:hover {
+    color: aquamarine;
+}
+
+header img {
+    display: block;
+    justify-items: flex-end;
+    width: 2.3rem;
+    padding-left: 85rem;
+    margin-top: -2rem;
+    z-index: 2;
+}
+
+header img:hover {
+    cursor: pointer;
+}
+
+header div {
+    display: grid;
+    justify-content: flex-start;
+    background-color: rgb(221, 227, 216);
+    padding: 1rem;
+    text-align: center;
+    width: 10rem;
+    row-gap: 2rem;
+    margin-left: 75.3rem;
+    margin-top: 1rem;
+    font-size: 1.5rem;
+    z-index: 2;
+}
+
+header div a {
+    color: black;
+}
+
+
+@media only screen and (min-width: 801px) {
+    .hamburger {
+        display: none;
+    }
+
+}
+
+@media only screen and (max-width: 800px) {
+    .hamburger {
+        display: block;
+    }
+}
+
+section {
+    background-color: aliceblue;
+    width: 100%;
+}
+
+#about {
+    display: flex;
+    padding: 8rem 0rem;
+}
+
+#backPhoto {
+    position: absolute;
+    width: 600px;
+    height: 400px;
+    margin-left: 5rem;
+}
+
+
+
+.aboutText {
+    display: grid;
+    align-content: center;
+    font-size: 18px;
+    padding-left: 6rem;
+    row-gap: 1.75rem;
+    text-align: center;
+}
+
+.aboutText h2 {
+    padding-bottom:3rem;
+}
+
+#myPhoto {
+    position: relative;
+    width: 250px;
+    height: 250px;
+    z-index: 2;
+    margin-left: 29rem;
+    margin-top: 90px;
+
+}
+
+
+
+#contacts {
+    padding: 5rem 0rem;
+}
+
+.centerContacts {
+    display: grid;
+    row-gap: 1.5rem;
+    width: 300px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#contacts a {
+    transition: color 0.3 ease;
+    color: black;
+    text-decoration: none;
+}
+
+#contacts a:hover {
+    color: #364552;
+}
+
+#portfolio {
+    height: 600px;
+}
+
+
+footer {
+    color: white;
+    height: 100px;
+    background-color: rgb(94, 19, 14);
+    padding: 2rem 0rem;
+}
+.PortfolioImages {
+    position: relative;
+    margin: auto;
+    width: 27%;
+    padding: 3rem 13rem;
+    float: left;
+}
+
+footer p {
+    width: 300px;
+    margin: 0 auto;
+    font-size: 20px;
+}
+
+
+section h2{
+    text-alignment: center;
+    width: 200px;
+    margin: 0 auto;
+}
+
+
+p {
+    font-family: 'Lato', sans-serif;
+}
+
+.window {
+    position:absolute;
+    border:solid black 3px;
+    border-radius:5px;
+    display: none;
+    background-color: rgb(20, 54, 107);
+    color: white;
+    text-align: center;
+    height: 15rem;
+    width: 45rem;
+    font-family: 'Lato', sans-serif;
+    font-size: 1.2rem;
+    z-index: 2;
+    padding: 1rem;
+    left: 35rem;
+    top: 110rem;
+}
+
+
+.display-window {
+    display: grid;
+    row-gap: 0.8rem;
+}
+
+.close-window {
+    width: 5rem;
+    height: 1.5rem;
+    margin: 0 auto;
+    border: solid black 3px;
+    border-radius: 4px;
+    border-style: none;
+    background-color: rgb(92, 136, 204);
+}
+
+
+
+#algoThief-openwindow {
+    margin-left: -6000%;
+    margin-top: 5500%;
+}
+
+.open-window {
+    width: 4.5rem;
+    height: 2rem;
+    padding: 1.5px;
+    border-style: groove;
+    border-radius:3px;
+    background-color: lightblue;
+    font-family: 'Lato', sans-serif;
+    font-size: 0.9rem;
+    text-align: center;
+}
+
+#virtualPiano-openwindow {
+    margin-left: -6000%;
+    margin-top: 5500%;
+}
+.buttonContainer {
+    width: 0.5rem;
+}
+
+
+button:hover {
+    cursor: pointer;
+}
+
+.projects {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+}
+

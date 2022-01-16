@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <hr>
+    <header>
+        <h1>Martin Reimundo, in order to become a developer!</h1>
+        <nav>
+            <a href="#about">About me</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contacts">Contacts</a>
+        </nav>
+        <div class="hamburger" id="menu">
+            <img id="hamburgerMenu" src="Hamburger_icon.png" alt="Menu" onclick="changeImage()" />
+            <a href="#about">About me</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contacts">Contacts</a>
+        </div>
+    </header>
+    <section id="about">
+        <img id="backPhoto" src="image.jpg" alt="backgroundAboutMe"/>
+        <img id="myPhoto" src="myPhoto.jpeg" alt="Martin Reimundo"/>
+        <div class="aboutText">
+            <h2>About Me</h2>
+            <p>Hi, I'm Martin Reimundo. I'm from Argentina, studying Computer Engineering in the "Universidad de Buenos Aires" (UBA).</p>
+            <p>I've been learning a bunch of theory and concepts, and now I desire to work at least in a part-time project.</p>
+            <p>As regards my skills, I've learned C and Java, and I'm in progress with HTML, CSS, JS.</p>
+        </div>
+    </section>
+    <section id="portfolio">
+        <h2>Portfolio</h2>
+        <div class="projects">
+            <div class="window" id="algoThief-window">
+                <div class="display-window">
+                    <h2>AlgoThief</h2>
+                    <p>You can see the project at the
+                        <a href="https://flashcard.com" title="flashcard">following link</a></p><br>
+                    <p>I did this project when I was studying OOP in Algorithms III. I created</p>
+                        <p>a program similar to the game 'Where in the World is Carmen Sandiego?'.</p>
+                        <p>I have learned some Java basics so as its designs patterns so I can make a simple game.</p>
+                    <button class="close-window" id="algoThief-closewindow">Close</button>
+                </div>
+            </div>
+            <img class="PortfolioImages" src="algoThief2.jpg" alt="AlgoThief"/>
+            <div class="buttonContainer"><p><button class="open-window" id="algoThief-openwindow">More info</button></p></div>
+
+            <div class="window" id="virtualPiano-window">
+                <div class="display-window">
+                    <h2>Virtual Piano</h2>
+                    <p>You can see the project at the
+                        <a href="https://flashcard.com" title="flashcard">following link</a></p><br>
+                    <p>I did this project when I was studying the frontend on HyperSkill. I created</p>
+                    <p>a web page of a virtual piano with virtual keys so I can play it, learned some HTML</p>
+                    <p>basics and learned that CSS can easily make a 'beautiful' design.</p>
+                    <button class="close-window" id="virtualPiano-closewindow">Close</button>
+                </div>
+            </div>
+            <img class="PortfolioImages" src="virtualPiano.jpg" alt="VirtualPiano"/>
+            <div class="buttonContainer"><p><button class="open-window" id="virtualPiano-openwindow">More info</button></p></div>
+        </div>
+    </section>
+    <section id="contacts">
+        <div class="centerContacts">
+            <h2>Contacts</h2>
+            <p>Cel: 2392539959</p>
+            <a target="_blank" href="mailto:mreimundo@fi.uba.ar">Sent me a mail</a>
+            <p>Instagram: @martin.reimundo</p>
+        </div>
+    </section>
+    <footer>
+            <p>This portfolio is in construction.</p>
+            <br>
+            <p>MARTIN REIMUNDO - 2022</p>
+    </footer>
+    <script src="script.js"/>
+</body>
+</html>
